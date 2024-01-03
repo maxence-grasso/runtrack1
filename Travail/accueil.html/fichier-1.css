@@ -1,0 +1,105 @@
+*
+{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+/*Le style du titre */
+.titre {
+    text-align: center;
+    padding: 5px;
+    display: block;
+    color: white;
+ }
+
+.video-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+ }
+
+ .banniere{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-size: cover;
+    background-image: url(file:///C:/Users/Maxen/Desktop/Travail/accueil.html/istockphoto-493536446-612x612.jpg);
+ }
+
+#menu-nav
+{
+	background-image:url(file:///C:/Users/Maxen/Desktop/Travail/accueil.html/menu.png);
+	background-repeat: no-repeat;
+	width: 940px;
+   height: 69px;
+	clear: left;
+}
+
+#menu-nav ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width: 1200px;
+}
+
+#menu-nav li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu-nav a {
+	float: left;
+	width: 154px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+#text
+{
+	width:880px;
+	height:auto;
+	background-color:#FFF;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+}
+
+.titre-h1{
+	text-align: center;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #EEEFE4;
+	background-image:url(images/background.png);
+	background-repeat:repeat-x;
+}
+
+html, body {
+	text-align: center;
+}
+
+p {
+   text-align: left;
+}
+
+.image{
+   width: 100%;
+   display: flex;
+    justify-content: space-around;
+    background-size: cover;
+}

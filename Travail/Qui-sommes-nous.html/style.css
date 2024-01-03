@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #EEEFE4;
+	background-image:url(images/background.png);
+	background-repeat:repeat-x;
+}
+
+*
+{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+#menu-nav
+{
+	background-image:url(images/menu.png);
+	background-repeat:no-repeat;
+	width: 940px;
+	height: 69px;
+	clear: left;
+}
+
+#text
+{
+	width:880px;
+	height:auto;
+	background-color:#FFF;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+}
+
+#footer
+{
+	width:inherit;
+	height:auto;
+}
+
+#menu-nav ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width: 1200px;
+}
+
+#menu-nav li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu-nav a {
+	float: left;
+	width: 154px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+html, body {
+	text-align: center;
+}
+p {text-align: left;}
+
+.banniere{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-size: cover;
+    background-image: url(file:///C:/Users/Maxen/Desktop/Travail/accueil.html/istockphoto-493536446-612x612.jpg);
+ }
+
+.titre {
+    text-align: center;
+    padding: 5px;
+    display: block;
+    color: white;
+ }
+
+ .image{
+	width: 100%;
+	display: flex;
+	 justify-content: space-around;
+	 background-size: cover;
+ }
+ 
+.titre-h1{
+	text-align: center;
+}
